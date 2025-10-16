@@ -115,3 +115,38 @@ a[href*="http"] {
   background: url("external-link-52.png") no-repeat right center;
   background-size: 14px 14px;
 }
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  width: 100%;
+  line-height: 3.5;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px solid #aa6666;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover,
+nav a:focus {
+  background: #aa6666;
+  color: #fff;
+}
+
+nav a:active {
+  background: #000;
+  color: #fff;
+}
