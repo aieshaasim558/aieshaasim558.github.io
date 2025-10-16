@@ -1,0 +1,28 @@
+/*
+  Name: Aiesha Asim
+  File: styles.css
+  Date: October 2025
+  INFT1206 A3, Part 2 Typesetting Page
+*/
+
+/* --- 1. Font imports & defaults --- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+
