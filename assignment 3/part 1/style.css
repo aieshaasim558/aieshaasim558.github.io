@@ -1,6 +1,6 @@
 /*
   Name: Aiesha Asim
-  File: styles.css
+  File: style.css
   Date: October 2025
   INFT1206 A3 – Part 1 Biography Page
 */
@@ -27,6 +27,23 @@ h2 {
 }
 
 .job-title {
-  color: darkslategray;
+  color: darkslategray; 
   font-weight: bold;
+}
+ul 
+{
+  background-color: white;
+  border: 5px solid purple;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+a {
+  color: green;
+  text-decoration: underline;
+}
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: none;
 }
