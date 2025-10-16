@@ -1,0 +1,16 @@
+/*
+  Name: Aiesha Asim
+  File: styles.css
+  Date: October 2025
+  INFT1206 A3 – Part 1 Biography Page
+*/
+html { background-color: white; }
+body { font: 1.2em / 1.5 system-ui; }
+
+body {
+  width: 500px;
+  padding: 20px;
+  background-color: #efefef;
+  margin: 0 auto; 
+}
+
