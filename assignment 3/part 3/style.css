@@ -76,3 +76,18 @@ nav a:hover {
   margin: 10px 30px 20px 0; 
 }
 
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+
+article p {
+  margin-bottom: 1em;
+}
